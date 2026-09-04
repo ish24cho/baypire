@@ -1,0 +1,32 @@
+benchmark: mmlu
+data_path: data/external/prompteval_mmlu/chunks
+model_ids:
+  - meta_llama_llama_3_8b
+subject: abstract_algebra
+
+budgets:
+  - 200
+  - 400
+  - 800
+  - 1600
+
+n_masks: 20
+mask_type: balanced
+base_seed: 42
+methods:
+  - Avg
+  - PE-Rasch
+  - Bayes-MAP
+  - BayPIRE
+
+prompteval_repo: vendor/prompteval
+
+bayesian_irt:
+  draws: 1000
+  tune: 1000
+  chains: 4
+  target_accept: 0.97
+
+map_rasch:
+  sigma_prompt: 1.0
+  sigma_item: 1.0

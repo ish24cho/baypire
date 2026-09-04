@@ -1,0 +1,5 @@
+method,score_rule,n
+m0_naive,,160
+m1_additive,observed_true_unobserved_probability_imputation,160
+pe_rasch,observed_true_unobserved_fitted_probability_imputation,160
+m2_bayesian_additive,observed_true_unobserved_posterior_mean_imputation,160

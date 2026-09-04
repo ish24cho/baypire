@@ -1,0 +1,24 @@
+benchmark: olympiad_math
+data_path: data/raw/olympiad/olym_math_deepseek_p50/matrices/Y_pilot.pkl
+model_id: deepseek-anthropic
+
+budgets:
+  - 0.10
+  - 0.20
+  - 0.30
+  - 0.60
+
+n_masks: 20
+mask_type: balanced
+base_seed: 42
+methods:
+  - M0
+  - PE
+  - M1
+  - M2
+
+bayesian_irt:
+  draws: 1000
+  tune: 1000
+  chains: 4
+  target_accept: 0.97

@@ -1,0 +1,464 @@
+{
+  "chunks_dir": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks",
+  "dataset": "PromptEval/PromptEval_MMLU_correctness",
+  "n_observations": 21063000,
+  "n_subject_chunks": 57,
+  "subjects": [
+    {
+      "n_models": 15,
+      "n_observations": 150000,
+      "n_prompts": 100,
+      "n_questions": 100,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/abstract_algebra.parquet",
+      "subject": "abstract_algebra"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 202500,
+      "n_prompts": 100,
+      "n_questions": 135,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/anatomy.parquet",
+      "subject": "anatomy"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 228000,
+      "n_prompts": 100,
+      "n_questions": 152,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/astronomy.parquet",
+      "subject": "astronomy"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 150000,
+      "n_prompts": 100,
+      "n_questions": 100,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/business_ethics.parquet",
+      "subject": "business_ethics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 397500,
+      "n_prompts": 100,
+      "n_questions": 265,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/clinical_knowledge.parquet",
+      "subject": "clinical_knowledge"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 216000,
+      "n_prompts": 100,
+      "n_questions": 144,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/college_biology.parquet",
+      "subject": "college_biology"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 150000,
+      "n_prompts": 100,
+      "n_questions": 100,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/college_chemistry.parquet",
+      "subject": "college_chemistry"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 150000,
+      "n_prompts": 100,
+      "n_questions": 100,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/college_computer_science.parquet",
+      "subject": "college_computer_science"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 150000,
+      "n_prompts": 100,
+      "n_questions": 100,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/college_mathematics.parquet",
+      "subject": "college_mathematics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 259500,
+      "n_prompts": 100,
+      "n_questions": 173,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/college_medicine.parquet",
+      "subject": "college_medicine"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 153000,
+      "n_prompts": 100,
+      "n_questions": 102,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/college_physics.parquet",
+      "subject": "college_physics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 150000,
+      "n_prompts": 100,
+      "n_questions": 100,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/computer_security.parquet",
+      "subject": "computer_security"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 352500,
+      "n_prompts": 100,
+      "n_questions": 235,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/conceptual_physics.parquet",
+      "subject": "conceptual_physics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 171000,
+      "n_prompts": 100,
+      "n_questions": 114,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/econometrics.parquet",
+      "subject": "econometrics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 217500,
+      "n_prompts": 100,
+      "n_questions": 145,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/electrical_engineering.parquet",
+      "subject": "electrical_engineering"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 567000,
+      "n_prompts": 100,
+      "n_questions": 378,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/elementary_mathematics.parquet",
+      "subject": "elementary_mathematics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 189000,
+      "n_prompts": 100,
+      "n_questions": 126,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/formal_logic.parquet",
+      "subject": "formal_logic"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 150000,
+      "n_prompts": 100,
+      "n_questions": 100,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/global_facts.parquet",
+      "subject": "global_facts"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 465000,
+      "n_prompts": 100,
+      "n_questions": 310,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_biology.parquet",
+      "subject": "high_school_biology"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 304500,
+      "n_prompts": 100,
+      "n_questions": 203,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_chemistry.parquet",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 150000,
+      "n_prompts": 100,
+      "n_questions": 100,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_computer_science.parquet",
+      "subject": "high_school_computer_science"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 247500,
+      "n_prompts": 100,
+      "n_questions": 165,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_european_history.parquet",
+      "subject": "high_school_european_history"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 297000,
+      "n_prompts": 100,
+      "n_questions": 198,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_geography.parquet",
+      "subject": "high_school_geography"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 289500,
+      "n_prompts": 100,
+      "n_questions": 193,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_government_and_politics.parquet",
+      "subject": "high_school_government_and_politics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 585000,
+      "n_prompts": 100,
+      "n_questions": 390,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_macroeconomics.parquet",
+      "subject": "high_school_macroeconomics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 405000,
+      "n_prompts": 100,
+      "n_questions": 270,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_mathematics.parquet",
+      "subject": "high_school_mathematics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 357000,
+      "n_prompts": 100,
+      "n_questions": 238,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_microeconomics.parquet",
+      "subject": "high_school_microeconomics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 226500,
+      "n_prompts": 100,
+      "n_questions": 151,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_physics.parquet",
+      "subject": "high_school_physics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 817500,
+      "n_prompts": 100,
+      "n_questions": 545,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_psychology.parquet",
+      "subject": "high_school_psychology"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 324000,
+      "n_prompts": 100,
+      "n_questions": 216,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_statistics.parquet",
+      "subject": "high_school_statistics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 306000,
+      "n_prompts": 100,
+      "n_questions": 204,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_us_history.parquet",
+      "subject": "high_school_us_history"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 355500,
+      "n_prompts": 100,
+      "n_questions": 237,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/high_school_world_history.parquet",
+      "subject": "high_school_world_history"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 334500,
+      "n_prompts": 100,
+      "n_questions": 223,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/human_aging.parquet",
+      "subject": "human_aging"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 196500,
+      "n_prompts": 100,
+      "n_questions": 131,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/human_sexuality.parquet",
+      "subject": "human_sexuality"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 181500,
+      "n_prompts": 100,
+      "n_questions": 121,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/international_law.parquet",
+      "subject": "international_law"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 162000,
+      "n_prompts": 100,
+      "n_questions": 108,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/jurisprudence.parquet",
+      "subject": "jurisprudence"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 244500,
+      "n_prompts": 100,
+      "n_questions": 163,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/logical_fallacies.parquet",
+      "subject": "logical_fallacies"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 168000,
+      "n_prompts": 100,
+      "n_questions": 112,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/machine_learning.parquet",
+      "subject": "machine_learning"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 154500,
+      "n_prompts": 100,
+      "n_questions": 103,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/management.parquet",
+      "subject": "management"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 351000,
+      "n_prompts": 100,
+      "n_questions": 234,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/marketing.parquet",
+      "subject": "marketing"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 150000,
+      "n_prompts": 100,
+      "n_questions": 100,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/medical_genetics.parquet",
+      "subject": "medical_genetics"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 1174500,
+      "n_prompts": 100,
+      "n_questions": 783,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/miscellaneous.parquet",
+      "subject": "miscellaneous"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 519000,
+      "n_prompts": 100,
+      "n_questions": 346,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/moral_disputes.parquet",
+      "subject": "moral_disputes"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 1342500,
+      "n_prompts": 100,
+      "n_questions": 895,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/moral_scenarios.parquet",
+      "subject": "moral_scenarios"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 459000,
+      "n_prompts": 100,
+      "n_questions": 306,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/nutrition.parquet",
+      "subject": "nutrition"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 466500,
+      "n_prompts": 100,
+      "n_questions": 311,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/philosophy.parquet",
+      "subject": "philosophy"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 486000,
+      "n_prompts": 100,
+      "n_questions": 324,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/prehistory.parquet",
+      "subject": "prehistory"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 423000,
+      "n_prompts": 100,
+      "n_questions": 282,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/professional_accounting.parquet",
+      "subject": "professional_accounting"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 2301000,
+      "n_prompts": 100,
+      "n_questions": 1534,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/professional_law.parquet",
+      "subject": "professional_law"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 408000,
+      "n_prompts": 100,
+      "n_questions": 272,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/professional_medicine.parquet",
+      "subject": "professional_medicine"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 918000,
+      "n_prompts": 100,
+      "n_questions": 612,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/professional_psychology.parquet",
+      "subject": "professional_psychology"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 165000,
+      "n_prompts": 100,
+      "n_questions": 110,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/public_relations.parquet",
+      "subject": "public_relations"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 367500,
+      "n_prompts": 100,
+      "n_questions": 245,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/security_studies.parquet",
+      "subject": "security_studies"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 301500,
+      "n_prompts": 100,
+      "n_questions": 201,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/sociology.parquet",
+      "subject": "sociology"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 150000,
+      "n_prompts": 100,
+      "n_questions": 100,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/us_foreign_policy.parquet",
+      "subject": "us_foreign_policy"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 249000,
+      "n_prompts": 100,
+      "n_questions": 166,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/virology.parquet",
+      "subject": "virology"
+    },
+    {
+      "n_models": 15,
+      "n_observations": 256500,
+      "n_prompts": 100,
+      "n_questions": 171,
+      "path": "/Users/jayhung/M2R_LLM_Eval/baypire/data/external/prompteval_mmlu/chunks/world_religions.parquet",
+      "subject": "world_religions"
+    }
+  ]
+}

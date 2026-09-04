@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: BayPIRE
+message: "If you use this research code, please cite the accompanying BayPIRE paper."
+authors:
+  - family-names: Hung
+    given-names: Jay
+date-released: 2026-08-29
+version: 0.1.0
+

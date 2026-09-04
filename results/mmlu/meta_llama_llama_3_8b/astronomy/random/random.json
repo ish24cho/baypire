@@ -1,0 +1,21 @@
+{
+  "base_seed": 42,
+  "budgets": "200,400,800,1600",
+  "chains": 4,
+  "data": "data/external/prompteval_mmlu/chunks",
+  "draws": 1000,
+  "mask_type": "random",
+  "methods": [
+    "Avg",
+    "PE-Rasch",
+    "Bayes-MAP",
+    "BayPIRE"
+  ],
+  "model_id": "meta_llama_llama_3_8b",
+  "n_masks": 20,
+  "out": null,
+  "prompteval_repo": "vendor/prompteval",
+  "subject": "astronomy",
+  "target_accept": 0.97,
+  "tune": 1000
+}

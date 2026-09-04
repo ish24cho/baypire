@@ -1,0 +1,321 @@
+"benchmark","item_id","topic","problem","gold_answer","difficulty","source"
+"olym_math","olym_0205","Number theory","A geometric sequence has 20 terms.
+
+The sum of its first two terms is 40 .
+
+The sum of its first three terms is 76 .
+
+The sum of its first four terms is 130 .
+
+Determine how many of the terms in the sequence are integers.
+
+(A geometric sequence is a sequence in which each term after the first is obtained from the previous term by multiplying it by a constant. For example, $3,6,12$ is a geometric sequence with three terms.)","5","Competition","OlympiadBench"
+"olym_math","olym_0060","Combinatorics","Players $A$ and $B$ play a game on a blackboard that initially contains 2020 copies of the number 1. In every round, player $A$ erases two numbers $x$ and $y$ from the blackboard, and then player $B$ writes one of the numbers $x+y$ and $|x-y|$ on the blackboard. The game terminates as soon as, at the end of some round, one of the following holds:
+
+(1) one of the numbers on the blackboard is larger than the sum of all other numbers;
+
+(2) there are only zeros on the blackboard.
+
+Player $B$ must then give as many cookies to player $A$ as there are numbers on the blackboard. Player $A$ wants to get as many cookies as possible, whereas player $B$ wants to give as few as possible. Determine the number of cookies that $A$ receives if both players play optimally.","7","Competition","OlympiadBench"
+"olym_math","olym_0340","Number theory","There exists a digit $Y$ such that, for any digit $X$, the seven-digit number $\underline{1} \underline{2} \underline{3} \underline{X} \underline{5} \underline{Y} \underline{7}$ is not a multiple of 11. Compute $Y$.","4","Competition","OlympiadBench"
+"olym_math","olym_0338","Number theory","Let $n$ be a four-digit number whose square root is three times the sum of the digits of $n$. Compute $n$.","2916","Competition","OlympiadBench"
+"olym_math","olym_0604","Geometry","Regular tetrahedra $J A N E, J O H N$, and $J O A N$ have non-overlapping interiors. Compute $\tan \angle H A E$.","\frac{5 \sqrt{2}}{2}","Competition","OlympiadBench"
+"olym_math","olym_0376","Number theory","Let $T=11$. Compute the least positive integer $b$ such that, when expressed in base $b$, the number $T$ ! ends in exactly two zeroes.","5","Competition","OlympiadBench"
+"olym_math","olym_0309","Algebra","A function $f$ is defined so that
+
+- $f(1)=1$,
+- if $n$ is an even positive integer, then $f(n)=f\left(\frac{1}{2} n\right)$, and
+- if $n$ is an odd positive integer with $n>1$, then $f(n)=f(n-1)+1$.
+
+For example, $f(34)=f(17)$ and $f(17)=f(16)+1$.
+
+Determine the value of $f(50)$.","3","Competition","OlympiadBench"
+"olym_math","olym_0524","Geometry","Quadrilateral $A R M L$ is a kite with $A R=R M=5, A M=8$, and $R L=11$. Compute $A L$.","4 \sqrt{5}","Competition","OlympiadBench"
+"olym_math","olym_0240","Algebra","In the series of odd numbers $1+3+5-7-9-11+13+15+17-19-21-23 \ldots$ the signs alternate every three terms, as shown. What is the sum of the first 300 terms of the series?","-900","Competition","OlympiadBench"
+"olym_math","olym_0562","Geometry","Six solid regular tetrahedra are placed on a flat surface so that their bases form a regular hexagon $\mathcal{H}$ with side length 1 , and so that the vertices not lying in the plane of $\mathcal{H}$ (the ""top"" vertices) are themselves coplanar. A spherical ball of radius $r$ is placed so that its center is directly above the center of the hexagon. The sphere rests on the tetrahedra so that it is tangent to one edge from each tetrahedron. If the ball's center is coplanar with the top vertices of the tetrahedra, compute $r$.","\frac{\sqrt{2}}{3}","Competition","OlympiadBench"
+"olym_math","olym_0251","Combinatorics","A multiplicative partition of a positive integer $n \geq 2$ is a way of writing $n$ as a product of one or more integers, each greater than 1. Note that we consider a positive integer to be a multiplicative partition of itself. Also, the order of the factors in a partition does not matter; for example, $2 \times 3 \times 5$ and $2 \times 5 \times 3$ are considered to be the same partition of 30 . For each positive integer $n \geq 2$, define $P(n)$ to be the number of multiplicative partitions of $n$. We also define $P(1)=1$. Note that $P(40)=7$, since the multiplicative partitions of 40 are $40,2 \times 20,4 \times 10$, $5 \times 8,2 \times 2 \times 10,2 \times 4 \times 5$, and $2 \times 2 \times 2 \times 5$.
+
+(In each part, we use ""partition"" to mean ""multiplicative partition"". We also call the numbers being multiplied together in a given partition the ""parts"" of the partition.)
+Determine the value of $P(1000)$.","31","Competition","OlympiadBench"
+"olym_math","olym_0018","Algebra","Determine all pairs $(f, g)$ of functions from the set of positive integers to itself that satisfy
+
+$$
+f^{g(n)+1}(n)+g^{f(n)}(n)=f(n+1)-g(n+1)+1
+$$
+
+for every positive integer $n$. Here, $f^{k}(n)$ means $\underbrace{f(f(\ldots f}_{k}(n) \ldots))$.","f(n)=n$, $g(n)=1","Competition","OlympiadBench"
+"olym_math","olym_0586","Geometry","In parallelogram $A R M L$, points $P$ and $Q$ are the midpoints of sides $\overline{R M}$ and $\overline{A L}$, respectively. Point $X$ lies on segment $\overline{P Q}$, and $P X=3, R X=4$, and $P R=5$. Point $I$ lies on segment $\overline{R X}$ such that $I A=I L$. Compute the maximum possible value of $\frac{[P Q R]}{[L I P]}$.","\frac{4}{3}","Competition","OlympiadBench"
+"olym_math","olym_0372","Geometry","A bubble in the shape of a hemisphere of radius 1 is on a tabletop. Inside the bubble are five congruent spherical marbles, four of which are sitting on the table and one which rests atop the others. All marbles are tangent to the bubble, and their centers can be connected to form a pyramid with volume $V$ and with a square base. Compute $V$.","\frac{1}{54}","Competition","OlympiadBench"
+"olym_math","olym_0122","Algebra","Given a positive integer $n \geq 2$, determine the largest positive integer $N$ for which there exist $N+1$ real numbers $a_{0}, a_{1}, \ldots, a_{N}$ such that
+
+(1) $a_{0}+a_{1}=-\frac{1}{n}$, and
+
+(2) $\left(a_{k}+a_{k-1}\right)\left(a_{k}+a_{k+1}\right)=a_{k-1}-a_{k+1}$ for $1 \leq k \leq N-1$.","N=n","Competition","OlympiadBench"
+"olym_math","olym_0564","Algebra","The equations $x^{3}+A x+10=0$ and $x^{3}+B x^{2}+50=0$ have two roots in common. Compute the product of these common roots.","5 \sqrt[3]{4}","Competition","OlympiadBench"
+"olym_math","olym_0434","Number theory","For each positive integer $N$, let $P(N)$ denote the product of the digits of $N$. For example, $P(8)=8$, $P(451)=20$, and $P(2023)=0$. Compute the least positive integer $n$ such that $P(n+23)=P(n)+23$.","34","Competition","OlympiadBench"
+"olym_math","olym_0560","Number theory","Compute the smallest positive integer $n$ such that $n^{n}$ has at least 1,000,000 positive divisors.","84","Competition","OlympiadBench"
+"olym_math","olym_0324","Number theory","Let $N$ be the least integer greater than 20 that is a palindrome in both base 20 and base 14 . For example, the three-digit base-14 numeral (13)5(13) ${ }_{14}$ (representing $13 \cdot 14^{2}+5 \cdot 14^{1}+13 \cdot 14^{0}$ ) is a palindrome in base 14 , but not in base 20 , and the three-digit base-14 numeral (13)31 14 is not a palindrome in base 14 . Compute the base-10 representation of $N$.","105","Competition","OlympiadBench"
+"olym_math","olym_0587","Number theory","Given that $a, b, c$, and $d$ are positive integers such that
+
+$$
+a ! \cdot b ! \cdot c !=d ! \quad \text { and } \quad a+b+c+d=37
+$$
+
+compute the product $a b c d$.","2240","Competition","OlympiadBench"
+"olym_math","olym_0211","Combinatorics","For each positive integer $n$, let $T(n)$ be the number of triangles with integer side lengths, positive area, and perimeter $n$. For example, $T(6)=1$ since the only such triangle with a perimeter of 6 has side lengths 2,2 and 2 .
+Determine the smallest positive integer $n$ such that $T(n)>2010$.","309","Competition","OlympiadBench"
+"olym_math","olym_0355","Number theory","Let $T=\frac{8}{5}$. Let $z_{1}=15+5 i$ and $z_{2}=1+K i$. Compute the smallest positive integral value of $K$ such that $\left|z_{1}-z_{2}\right| \geq 15 T$.","25","Competition","OlympiadBench"
+"olym_math","olym_0378","Geometry","Compute the smallest $n$ such that in the regular $n$-gon $A_{1} A_{2} A_{3} \cdots A_{n}, \mathrm{~m} \angle A_{1} A_{20} A_{13}<60^{\circ}$.","37","Competition","OlympiadBench"
+"olym_math","olym_0053","Number theory","Denote by $\mathbb{N}$ the set of all positive integers. Find all functions $f: \mathbb{N} \rightarrow \mathbb{N}$ such that for all positive integers $m$ and $n$, the integer $f(m)+f(n)-m n$ is nonzero and divides $m f(m)+n f(n)$.","f(n)=n^{2}","Competition","OlympiadBench"
+"olym_math","olym_0083","Combinatorics","$A \pm 1 \text{-}sequence$ is a sequence of 2022 numbers $a_{1}, \ldots, a_{2022}$, each equal to either +1 or -1 . Determine the largest $C$ so that, for any $\pm 1 -sequence$, there exists an integer $k$ and indices $1 \leqslant t_{1}<\ldots<t_{k} \leqslant 2022$ so that $t_{i+1}-t_{i} \leqslant 2$ for all $i$, and
+
+$$
+\left|\sum_{i=1}^{k} a_{t_{i}}\right| \geqslant C
+$$","506","Competition","OlympiadBench"
+"olym_math","olym_0093","Algebra","Find the maximal value of
+
+$$
+S=\sqrt[3]{\frac{a}{b+7}}+\sqrt[3]{\frac{b}{c+7}}+\sqrt[3]{\frac{c}{d+7}}+\sqrt[3]{\frac{d}{a+7}}
+$$
+
+where $a, b, c, d$ are nonnegative real numbers which satisfy $a+b+c+d=100$.","\frac{8}{\sqrt[3]{7}}","Competition","OlympiadBench"
+"olym_math","olym_0669","Geometry","Let $T=16$. An isosceles trapezoid has an area of $T+1$, a height of 2 , and the shorter base is 3 units shorter than the longer base. Compute the sum of the length of the shorter base and the length of one of the congruent sides.","9.5","Competition","OlympiadBench"
+"olym_math","olym_0365","Number theory","Call a positive integer fibbish if each digit, after the leftmost two, is at least the sum of the previous two digits. Compute the greatest fibbish number.","10112369","Competition","OlympiadBench"
+"olym_math","olym_0102","Combinatorics","For any integer $n \geq 2$, let $N(n)$ be the maximal number of triples $\left(a_{i}, b_{i}, c_{i}\right), i=1, \ldots, N(n)$, consisting of nonnegative integers $a_{i}, b_{i}$ and $c_{i}$ such that the following two conditions are satisfied:
+
+(1) $a_{i}+b_{i}+c_{i}=n$ for all $i=1, \ldots, N(n)$,
+
+(2) If $i \neq j$, then $a_{i} \neq a_{j}, b_{i} \neq b_{j}$ and $c_{i} \neq c_{j}$.
+
+Determine $N(n)$ for all $n \geq 2$.","N(n)=\left\lfloor\frac{2 n}{3}\right\rfloor+1","Competition","OlympiadBench"
+"olym_math","olym_0610","Geometry","In non-right triangle $A B C$, distinct points $P, Q, R$, and $S$ lie on $\overline{B C}$ in that order such that $\angle B A P \cong \angle P A Q \cong \angle Q A R \cong \angle R A S \cong \angle S A C$. Given that the angles of $\triangle A B C$ are congruent to the angles of $\triangle A P Q$ in some order of correspondence, compute $\mathrm{m} \angle B$ in degrees.","\frac{45}{2}","Competition","OlympiadBench"
+"olym_math","olym_0648","Geometry","Spheres centered at points $P, Q, R$ are externally tangent to each other, and are tangent to plane $\mathcal{M}$ at points $P^{\prime}, Q^{\prime}, R^{\prime}$, respectively. All three spheres are on the same side of the plane. If $P^{\prime} Q^{\prime}=Q^{\prime} R^{\prime}=12$ and $P^{\prime} R^{\prime}=6$, compute the area of $\triangle P Q R$.","18 \sqrt{6}","Competition","OlympiadBench"
+"olym_math","olym_0614","Geometry","$\quad$ Compute the greatest real number $K$ for which the graphs of
+
+$$
+(|x|-5)^{2}+(|y|-5)^{2}=K \quad \text { and } \quad(x-1)^{2}+(y+1)^{2}=37
+$$
+
+have exactly two intersection points.","29","Competition","OlympiadBench"
+"olym_math","olym_0049","Algebra","Determine the largest real number $a$ such that for all $n \geqslant 1$ and for all real numbers $x_{0}, x_{1}, \ldots, x_{n}$ satisfying $0=x_{0}<x_{1}<x_{2}<\cdots<x_{n}$, we have
+
+$$
+\frac{1}{x_{1}-x_{0}}+\frac{1}{x_{2}-x_{1}}+\cdots+\frac{1}{x_{n}-x_{n-1}} \geqslant a\left(\frac{2}{x_{1}}+\frac{3}{x_{2}}+\cdots+\frac{n+1}{x_{n}}\right) .\tag{1}
+$$","\frac{4}{9}","Competition","OlympiadBench"
+"olym_math","olym_0514","Geometry","In $\triangle A B C, D$ is on $\overline{A C}$ so that $\overline{B D}$ is the angle bisector of $\angle B$. Point $E$ is on $\overline{A B}$ and $\overline{C E}$ intersects $\overline{B D}$ at $P$. Quadrilateral $B C D E$ is cyclic, $B P=12$ and $P E=4$. Compute the ratio $\frac{A C}{A E}$.","3","Competition","OlympiadBench"
+"olym_math","olym_0052","Number theory","Define $P(n)=n^{2}+n+1$. For any positive integers $a$ and $b$, the set
+
+$$
+\{P(a), P(a+1), P(a+2), \ldots, P(a+b)\}
+$$
+
+is said to be fragrant if none of its elements is relatively prime to the product of the other elements. Determine the smallest size of a fragrant set.","6","Competition","OlympiadBench"
+"olym_math","olym_0456","Geometry","Three non-overlapping squares of positive integer side lengths each have one vertex at the origin and sides parallel to the coordinate axes. Together, the three squares enclose a region whose area is 41 . Compute the largest possible perimeter of the region.","32","Competition","OlympiadBench"
+"olym_math","olym_0234","Combinatorics","A permutation of a list of numbers is an ordered arrangement of the numbers in that list. For example, $3,2,4,1,6,5$ is a permutation of $1,2,3,4,5,6$. We can write this permutation as $a_{1}, a_{2}, a_{3}, a_{4}, a_{5}, a_{6}$, where $a_{1}=3, a_{2}=2, a_{3}=4, a_{4}=1, a_{5}=6$, and $a_{6}=5$.
+Determine the average value of
+
+$$
+\left|a_{1}-a_{2}\right|+\left|a_{3}-a_{4}\right|+\cdots+\left|a_{197}-a_{198}\right|+\left|a_{199}-a_{200}\right|
+$$
+
+over all permutations $a_{1}, a_{2}, a_{3}, \ldots, a_{199}, a_{200}$ of $1,2,3,4, \ldots, 199,200$. (The sum labelled (*) contains 100 terms of the form $\left|a_{2 k-1}-a_{2 k}\right|$.)","6700","Competition","OlympiadBench"
+"olym_math","olym_0055","Algebra","Let $\mathcal{A}$ denote the set of all polynomials in three variables $x, y, z$ with integer coefficients. Let $\mathcal{B}$ denote the subset of $\mathcal{A}$ formed by all polynomials which can be expressed as
+
+$$
+(x+y+z) P(x, y, z)+(x y+y z+z x) Q(x, y, z)+x y z R(x, y, z)
+$$
+
+with $P, Q, R \in \mathcal{A}$. Find the smallest non-negative integer $n$ such that $x^{i} y^{j} z^{k} \in \mathcal{B}$ for all nonnegative integers $i, j, k$ satisfying $i+j+k \geqslant n$.","4","Competition","OlympiadBench"
+"olym_math","olym_0608","Combinatorics","Eight students attend a Harper Valley ARML practice. At the end of the practice, they decide to take selfies to celebrate the event. Each selfie will have either two or three students in the picture. Compute the minimum number of selfies so that each pair of the eight students appears in exactly one selfie.","12","Competition","OlympiadBench"
+"olym_math","olym_0085","Combinatorics","Lucy starts by writing $s$ integer-valued 2022-tuples on a blackboard. After doing that, she can take any two (not necessarily distinct) tuples $\mathbf{v}=\left(v_{1}, \ldots, v_{2022}\right)$ and $\mathbf{w}=\left(w_{1}, \ldots, w_{2022}\right)$ that she has already written, and apply one of the following operations to obtain a new tuple:
+
+$$
+\begin{aligned}
+& \mathbf{v}+\mathbf{w}=\left(v_{1}+w_{1}, \ldots, v_{2022}+w_{2022}\right) \\
+& \mathbf{v} \vee \mathbf{w}=\left(\max \left(v_{1}, w_{1}\right), \ldots, \max \left(v_{2022}, w_{2022}\right)\right)
+\end{aligned}
+$$
+
+and then write this tuple on the blackboard.
+
+It turns out that, in this way, Lucy can write any integer-valued 2022-tuple on the blackboard after finitely many steps. What is the smallest possible number $s$ of tuples that she initially wrote?","3","Competition","OlympiadBench"
+"olym_math","olym_0050","Combinatorics","Find all positive integers $n$ for which all positive divisors of $n$ can be put into the cells of a rectangular table under the following constraints:
+
+- each cell contains a distinct divisor;
+- the sums of all rows are equal; and
+- the sums of all columns are equal.","1","Competition","OlympiadBench"
+"olym_math","olym_0597","Combinatorics","Elizabeth is in an ""escape room"" puzzle. She is in a room with one door which is locked at the start of the puzzle. The room contains $n$ light switches, each of which is initially off. Each minute, she must flip exactly $k$ different light switches (to ""flip"" a switch means to turn it on if it is currently off, and off if it is currently on). At the end of each minute, if all of the switches are on, then the door unlocks and Elizabeth escapes from the room.
+
+Let $E(n, k)$ be the minimum number of minutes required for Elizabeth to escape, for positive integers $n, k$ with $k \leq n$. For example, $E(2,1)=2$ because Elizabeth cannot escape in one minute (there are two switches and one must be flipped every minute) but she can escape in two minutes (by flipping Switch 1 in the first minute and Switch 2 in the second minute). Define $E(n, k)=\infty$ if the puzzle is impossible to solve (that is, if it is impossible to have all switches on at the end of any minute).
+
+For convenience, assume the $n$ light switches are numbered 1 through $n$.
+Compute the $E(7,3)$","3","Competition","OlympiadBench"
+"olym_math","olym_0468","Number theory","Compute the least positive integer $n$ such that the set of angles
+
+$$
+\left\{123^{\circ}, 246^{\circ}, \ldots, n \cdot 123^{\circ}\right\}
+$$
+
+contains at least one angle in each of the four quadrants.","11","Competition","OlympiadBench"
+"olym_math","olym_0611","Algebra","Consider the system of equations
+
+$$
+\begin{aligned}
+& \log _{4} x+\log _{8}(y z)=2 \\
+& \log _{4} y+\log _{8}(x z)=4 \\
+& \log _{4} z+\log _{8}(x y)=5 .
+\end{aligned}
+$$
+
+Given that $x y z$ can be expressed in the form $2^{k}$, compute $k$.","\frac{66}{7}","Competition","OlympiadBench"
+"olym_math","olym_0525","Algebra","Let $T=4 \sqrt{5}$. If $x y=\sqrt{5}, y z=5$, and $x z=T$, compute the positive value of $x$.","2","Competition","OlympiadBench"
+"olym_math","olym_0674","Geometry","The sum of the interior angles of an $n$-gon equals the sum of the interior angles of a pentagon plus the sum of the interior angles of an octagon. Compute $n$.","11","Competition","OlympiadBench"
+"olym_math","olym_0272","Algebra","A list $a_{1}, a_{2}, a_{3}, a_{4}$ of rational numbers is defined so that if one term is equal to $r$, then the next term is equal to $1+\frac{1}{1+r}$. For example, if $a_{3}=\frac{41}{29}$, then $a_{4}=1+\frac{1}{1+(41 / 29)}=\frac{99}{70}$. If $a_{3}=\frac{41}{29}$, what is the value of $a_{1} ?$","\frac{7}{5}","Competition","OlympiadBench"
+"olym_math","olym_0387","Geometry","Let $A R M L$ be a trapezoid with bases $\overline{A R}$ and $\overline{M L}$, such that $M R=R A=A L$ and $L R=$ $A M=M L$. Point $P$ lies inside the trapezoid such that $\angle R M P=12^{\circ}$ and $\angle R A P=6^{\circ}$. Diagonals $A M$ and $R L$ intersect at $D$. Compute the measure, in degrees, of angle $A P D$.","48","Competition","OlympiadBench"
+"olym_math","olym_0116","Combinatorics","Find the smallest positive integer $k$ for which there exist a colouring of the positive integers $\mathbb{Z}_{>0}$ with $k$ colours and a function $f: \mathbb{Z}_{>0} \rightarrow \mathbb{Z}_{>0}$ with the following two properties:
+
+(i) For all positive integers $m, n$ of the same colour, $f(m+n)=f(m)+f(n)$.
+
+(ii) There are positive integers $m, n$ such that $f(m+n) \neq f(m)+f(n)$.
+
+In a colouring of $\mathbb{Z}_{>0}$ with $k$ colours, every integer is coloured in exactly one of the $k$ colours. In both (i) and (ii) the positive integers $m, n$ are not necessarily different.","k=3","Competition","OlympiadBench"
+"olym_math","olym_0612","Combinatorics","A complex number $z$ is selected uniformly at random such that $|z|=1$. Compute the probability that $z$ and $z^{2019}$ both lie in Quadrant II in the complex plane.","\frac{505}{8076}","Competition","OlympiadBench"
+"olym_math","olym_0027","Number theory","Find the least positive integer $n$ for which there exists a set $\left\{s_{1}, s_{2}, \ldots, s_{n}\right\}$ consisting of $n$ distinct positive integers such that
+
+$$
+\left(1-\frac{1}{s_{1}}\right)\left(1-\frac{1}{s_{2}}\right) \ldots\left(1-\frac{1}{s_{n}}\right)=\frac{51}{2010}
+$$","39","Competition","OlympiadBench"
+"olym_math","olym_0362","Geometry","Let $T=3$. Regular hexagon $S U P E R B$ has side length $\sqrt{T}$. Compute the value of $B E \cdot S U \cdot R E$.","9","Competition","OlympiadBench"
+"olym_math","olym_0256","Geometry","Three thin metal rods of lengths 9,12 and 15 are welded together to form a right-angled triangle, which is held in a horizontal position. A solid sphere of radius 5 rests in the triangle so that it is tangent to each of the three sides. Assuming that the thickness of the rods can be neglected, how high above the plane of the triangle is the top of the sphere?","5","Competition","OlympiadBench"
+"olym_math","olym_0579","Geometry","In rectangle $P A U L$, point $D$ is the midpoint of $\overline{U L}$ and points $E$ and $F$ lie on $\overline{P L}$ and $\overline{P A}$, respectively such that $\frac{P E}{E L}=\frac{3}{2}$ and $\frac{P F}{F A}=2$. Given that $P A=36$ and $P L=25$, compute the area of pentagon $A U D E F$.","630","Competition","OlympiadBench"
+"olym_math","olym_0031","Combinatorics","A diagonal of a regular 2006-gon is called odd if its endpoints divide the boundary into two parts, each composed of an odd number of sides. Sides are also regarded as odd diagonals.
+
+Suppose the 2006-gon has been dissected into triangles by 2003 nonintersecting diagonals. Find the maximum possible number of isosceles triangles with two odd sides.","1003","Competition","OlympiadBench"
+"olym_math","olym_0615","Algebra","To morph a sequence means to replace two terms $a$ and $b$ with $a+1$ and $b-1$ if and only if $a+1<b-1$, and such an operation is referred to as a morph. Compute the least number of morphs needed to transform the sequence $1^{2}, 2^{2}, 3^{2}, \ldots, 10^{2}$ into an arithmetic progression.","56","Competition","OlympiadBench"
+"olym_math","olym_0094","Combinatorics","Queenie and Horst play a game on a $20 \times 20$ chessboard. In the beginning the board is empty. In every turn, Horst places a black knight on an empty square in such a way that his new knight does not attack any previous knights. Then Queenie places a white queen on an empty square. The game gets finished when somebody cannot move.
+
+Find the maximal positive $K$ such that, regardless of the strategy of Queenie, Horst can put at least $K$ knights on the board.","100","Competition","OlympiadBench"
+"olym_math","olym_0567","Number theory","Let T be an integer. Given a nonzero integer $n$, let $f(n)$ denote the sum of all numbers of the form $i^{d}$, where $i=\sqrt{-1}$, and $d$ is a divisor (positive or negative) of $n$. Compute $f(2 T+1)$.","0","Competition","OlympiadBench"
+"olym_math","olym_0405","Number theory","Let $S$ be the set of prime factors of the numbers you receive from positions 7 and 9 , and let $p$ and $q$ be the two least distinct elements of $S$, with $p<q$. Hexagon HEXAGO is inscribed in circle $\omega$, and every angle of $H E X A G O$ is $120^{\circ}$. If $H E=X A=G O=p$ and $E X=A G=O H=q$, compute the area of circle $\omega$.","\frac{67 \pi}{3}","Competition","OlympiadBench"
+"olym_math","olym_0559","Geometry","The six sides of convex hexagon $A_{1} A_{2} A_{3} A_{4} A_{5} A_{6}$ are colored red. Each of the diagonals of the hexagon is colored either red or blue. Compute the number of colorings such that every triangle $A_{i} A_{j} A_{k}$ has at least one red side.","392","Competition","OlympiadBench"
+"olym_math","olym_0021","Combinatorics","On a square table of 2011 by 2011 cells we place a finite number of napkins that each cover a square of 52 by 52 cells. In each cell we write the number of napkins covering it, and we record the maximal number $k$ of cells that all contain the same nonzero number. Considering all possible napkin configurations, what is the largest value of $k$ ?","3986729","Competition","OlympiadBench"
+"olym_math","olym_0649","Algebra","Let $f(x)=x^{1}+x^{2}+x^{4}+x^{8}+x^{16}+x^{32}+\cdots$. Compute the coefficient of $x^{10}$ in $f(f(x))$.","40","Competition","OlympiadBench"
+"olym_math","olym_0532","Algebra","Let $T=5$. If $|T|-1+3 i=\frac{1}{z}$, compute the sum of the real and imaginary parts of $z$.","\frac{1}{25}","Competition","OlympiadBench"
+"olym_math","olym_0438","Combinatorics","David builds a circular table; he then carves one or more positive integers into the table at points equally spaced around its circumference. He considers two tables to be the same if one can be rotated so that it has the same numbers in the same positions as the other. For example, a table with the numbers $8,4,5$ (in clockwise order) is considered the same as a table with the numbers 4, 5,8 (in clockwise order), but both tables are different from a table with the numbers 8, 5, 4 (in clockwise order). Given that the numbers he carves sum to 17 , compute the number of different tables he can make.","7711","Competition","OlympiadBench"
+"olym_math","olym_0041","Combinatorics","Let $n>1$ be an integer. An $n \times n \times n$ cube is composed of $n^{3}$ unit cubes. Each unit cube is painted with one color. For each $n \times n \times 1$ box consisting of $n^{2}$ unit cubes (of any of the three possible orientations), we consider the set of the colors present in that box (each color is listed only once). This way, we get $3 n$ sets of colors, split into three groups according to the orientation. It happens that for every set in any group, the same set appears in both of the other groups. Determine, in terms of $n$, the maximal possible number of colors that are present.","\frac{n(n+1)(2 n+1)}{6}","Competition","OlympiadBench"
+"olym_math","olym_0068","Algebra","Let $n$ be a fixed positive integer. Find the maximum possible value of
+
+$$
+\sum_{1 \leqslant r<s \leqslant 2 n}(s-r-n) x_{r} x_{s}
+$$
+
+where $-1 \leqslant x_{i} \leqslant 1$ for all $i=1,2, \ldots, 2 n$.","n(n-1)","Competition","OlympiadBench"
+"olym_math","olym_0602","Combinatorics","Elizabeth is in an ""escape room"" puzzle. She is in a room with one door which is locked at the start of the puzzle. The room contains $n$ light switches, each of which is initially off. Each minute, she must flip exactly $k$ different light switches (to ""flip"" a switch means to turn it on if it is currently off, and off if it is currently on). At the end of each minute, if all of the switches are on, then the door unlocks and Elizabeth escapes from the room.
+
+Let $E(n, k)$ be the minimum number of minutes required for Elizabeth to escape, for positive integers $n, k$ with $k \leq n$. For example, $E(2,1)=2$ because Elizabeth cannot escape in one minute (there are two switches and one must be flipped every minute) but she can escape in two minutes (by flipping Switch 1 in the first minute and Switch 2 in the second minute). Define $E(n, k)=\infty$ if the puzzle is impossible to solve (that is, if it is impossible to have all switches on at the end of any minute).
+
+For convenience, assume the $n$ light switches are numbered 1 through $n$.
+Find the $E(2001,501)$","5","Competition","OlympiadBench"
+"olym_math","olym_0551","Algebra","Let $T=5$. Compute the smallest positive integer $n$ such that there are at least $T$ positive integers in the domain of $f(x)=\sqrt{-x^{2}-2 x+n}$.","35","Competition","OlympiadBench"
+"olym_math","olym_0591","Geometry","Let $T=101$. In $\triangle A B C, \mathrm{~m} \angle C=90^{\circ}$ and $A C=B C=\sqrt{T-3}$. Circles $O$ and $P$ each have radius $r$ and lie inside $\triangle A B C$. Circle $O$ is tangent to $\overline{A C}$ and $\overline{B C}$. Circle $P$ is externally tangent to circle $O$ and to $\overline{A B}$. Given that points $C, O$, and $P$ are collinear, compute $r$.","3-\sqrt{2}","Competition","OlympiadBench"
+"olym_math","olym_0064","Combinatorics","For any two different real numbers $x$ and $y$, we define $D(x, y)$ to be the unique integer $d$ satisfying $2^{d} \leqslant|x-y|<2^{d+1}$. Given a set of reals $\mathcal{F}$, and an element $x \in \mathcal{F}$, we say that the scales of $x$ in $\mathcal{F}$ are the values of $D(x, y)$ for $y \in \mathcal{F}$ with $x \neq y$.
+
+Let $k$ be a given positive integer. Suppose that each member $x$ of $\mathcal{F}$ has at most $k$ different scales in $\mathcal{F}$ (note that these scales may depend on $x$ ). What is the maximum possible size of $\mathcal{F}$ ?","2^{k}","Competition","OlympiadBench"
+"olym_math","olym_0007","Algebra","Let $n \geqslant 2$ be an integer, and let $f$ be a $4 n$-variable polynomial with real coefficients. Assume that, for any $2 n$ points $\left(x_{1}, y_{1}\right), \ldots,\left(x_{2 n}, y_{2 n}\right)$ in the plane, $f\left(x_{1}, y_{1}, \ldots, x_{2 n}, y_{2 n}\right)=0$ if and only if the points form the vertices of a regular $2 n$-gon in some order, or are all equal.
+
+
+
+Determine the smallest possible degree of $f$.","2n","Competition","OlympiadBench"
+"olym_math","olym_0500","Number theory","Let $k$ be the least common multiple of the numbers in the set $\mathcal{S}=\{1,2, \ldots, 30\}$. Determine the number of positive integer divisors of $k$ that are divisible by exactly 28 of the numbers in the set $\mathcal{S}$.","23","Competition","OlympiadBench"
+"olym_math","olym_0467","Combinatorics","Let $T=75$. At Wash College of Higher Education (Wash Ed.), the entering class has $n$ students. Each day, two of these students are selected to oil the slide rules. If the entering class had two more students, there would be $T$ more ways of selecting the two slide rule oilers. Compute $n$.","37","Competition","OlympiadBench"
+"olym_math","olym_0010","Combinatorics","Given positive integers $m$ and $n \geq m$, determine the largest number of dominoes $(1 \times 2$ or $2 \times 1$ rectangles) that can be placed on a rectangular board with $m$ rows and $2 n$ columns consisting of cells $(1 \times 1$ squares $)$ so that:
+
+
+
+(i) each domino covers exactly two adjacent cells of the board;
+
+
+
+(ii) no two dominoes overlap;
+
+
+
+(iii) no two form a $2 \times 2$ square; and
+
+
+
+(iv) the bottom row of the board is completely covered by $n$ dominoes.","m n-\lfloor m / 2\rfloor","Competition","OlympiadBench"
+"olym_math","olym_0494","Algebra","Given that April $1^{\text {st }}, 2012$ fell on a Sunday, what is the next year in which April $1^{\text {st }}$ will fall on a Sunday?","2018","Competition","OlympiadBench"
+"olym_math","olym_0347","Geometry","Compute the area of the region defined by $x^{2}+y^{2} \leq|x|+|y|$.","2+\pi","Competition","OlympiadBench"
+"olym_math","olym_0315","Algebra","In an infinite array with two rows, the numbers in the top row are denoted $\ldots, A_{-2}, A_{-1}, A_{0}, A_{1}, A_{2}, \ldots$ and the numbers in the bottom row are denoted $\ldots, B_{-2}, B_{-1}, B_{0}, B_{1}, B_{2}, \ldots$ For each integer $k$, the entry $A_{k}$ is directly above the entry $B_{k}$ in the array, as shown:
+
+| $\ldots$ | $A_{-2}$ | $A_{-1}$ | $A_{0}$ | $A_{1}$ | $A_{2}$ | $\ldots$ |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| $\ldots$ | $B_{-2}$ | $B_{-1}$ | $B_{0}$ | $B_{1}$ | $B_{2}$ | $\ldots$ |
+
+For each integer $k, A_{k}$ is the average of the entry to its left, the entry to its right, and the entry below it; similarly, each entry $B_{k}$ is the average of the entry to its left, the entry to its right, and the entry above it.
+In one such array, $A_{0}=A_{1}=A_{2}=0$ and $A_{3}=1$.
+
+Determine the value of $A_{4}$.","6","Competition","OlympiadBench"
+"olym_math","olym_0048","Algebra","The equation
+
+$$
+(x-1)(x-2) \cdots(x-2016)=(x-1)(x-2) \cdots(x-2016)
+$$
+
+is written on the board. One tries to erase some linear factors from both sides so that each side still has at least one factor, and the resulting equation has no real roots. Find the least number of linear factors one needs to erase to achieve this.","2016","Competition","OlympiadBench"
+"olym_math","olym_0657","Algebra","The function $f$ satisfies the relation $f(n)=f(n-1) f(n-2)$ for all integers $n$, and $f(n)>0$ for all positive integers $n$. If $f(1)=\frac{f(2)}{512}$ and $\frac{1}{f(1)}=2 f(2)$, compute $f(f(4))$.","4096","Competition","OlympiadBench"
+"olym_math","olym_0186","Number theory","Determine the number of positive divisors of 900, including 1 and 900, that are perfect squares. (A positive divisor of 900 is a positive integer that divides exactly into 900.)","8","Competition","OlympiadBench"
+"olym_math","olym_0384","Number theory","In ARMLopolis, every house number is a positive integer, and City Hall's address is 0. However, due to the curved nature of the cowpaths that eventually became the streets of ARMLopolis, the distance $d(n)$ between house $n$ and City Hall is not simply the value of $n$. Instead, if $n=3^{k} n^{\prime}$, where $k \geq 0$ is an integer and $n^{\prime}$ is an integer not divisible by 3 , then $d(n)=3^{-k}$. For example, $d(18)=1 / 9$ and $d(17)=1$. Notice that even though no houses have negative numbers, $d(n)$ is well-defined for negative values of $n$. For example, $d(-33)=1 / 3$ because $-33=3^{1} \cdot-11$. By definition, $d(0)=0$. Following the dictum ""location, location, location,"" this Power Question will refer to ""houses"" and ""house numbers"" interchangeably.
+
+Curiously, the arrangement of the houses is such that the distance from house $n$ to house $m$, written $d(m, n)$, is simply $d(m-n)$. For example, $d(3,4)=d(-1)=1$ because $-1=3^{0} \cdot-1$. In particular, if $m=n$, then $d(m, n)=0$.
+
+
+The neighborhood of a house $n$, written $\mathcal{N}(n)$, is the set of all houses that are the same distance from City Hall as $n$. In symbols, $\mathcal{N}(n)=\{m \mid d(m)=d(n)\}$. Geometrically, it may be helpful to think of $\mathcal{N}(n)$ as a circle centered at City Hall with radius $d(n)$.
+Suppose that $d(17, m)=1 / 81$. Determine the possible values of $d(16, m)$.","1","Competition","OlympiadBench"
+"olym_math","olym_0495","Number theory","Let $p$ be a prime number. If $p$ years ago, the ages of three children formed a geometric sequence with a sum of $p$ and a common ratio of 2 , compute the sum of the children's current ages.","28","Competition","OlympiadBench"
+"olym_math","olym_0484","Number theory","Let T be a rational number. Let $N$ be the smallest positive $T$-digit number that is divisible by 33 . Compute the product of the last two digits of $N$.","6","Competition","OlympiadBench"
+"olym_math","olym_0553","Combinatorics","Let set $S=\{1,2,3,4,5,6\}$, and let set $T$ be the set of all subsets of $S$ (including the empty set and $S$ itself). Let $t_{1}, t_{2}, t_{3}$ be elements of $T$, not necessarily distinct. The ordered triple $\left(t_{1}, t_{2}, t_{3}\right)$ is called satisfactory if either
+
+(a) both $t_{1} \subseteq t_{3}$ and $t_{2} \subseteq t_{3}$, or
+
+(b) $t_{3} \subseteq t_{1}$ and $t_{3} \subseteq t_{2}$.
+
+Compute the number of satisfactory ordered triples $\left(t_{1}, t_{2}, t_{3}\right)$.","31186","Competition","OlympiadBench"
+"olym_math","olym_0574","Number theory","Let $T=98721$, and let $K$ be the sum of the digits of $T$. Let $A_{n}$ be the number of ways to tile a $1 \times n$ rectangle using $1 \times 3$ and $1 \times 1$ tiles that do not overlap. Tiles of both types need not be used; for example, $A_{3}=2$ because a $1 \times 3$ rectangle can be tiled with three $1 \times 1$ tiles or one $1 \times 3$ tile. Compute the smallest value of $n$ such that $A_{n} \geq K$.","10","Competition","OlympiadBench"
+"olym_math","olym_0554","Geometry","Let $A B C D$ be a parallelogram with $\angle A B C$ obtuse. Let $\overline{B E}$ be the altitude to side $\overline{A D}$ of $\triangle A B D$. Let $X$ be the point of intersection of $\overline{A C}$ and $\overline{B E}$, and let $F$ be the point of intersection of $\overline{A B}$ and $\overleftrightarrow{D X}$. If $B C=30, C D=13$, and $B E=12$, compute the ratio $\frac{A C}{A F}$.","\frac{222}{13}","Competition","OlympiadBench"
+"olym_math","olym_0534","Algebra","Let $T=800$. Simplify $2^{\log _{4} T} / 2^{\log _{16} 64}$.","10","Competition","OlympiadBench"
+"olym_math","olym_0595","Combinatorics","Elizabeth is in an ""escape room"" puzzle. She is in a room with one door which is locked at the start of the puzzle. The room contains $n$ light switches, each of which is initially off. Each minute, she must flip exactly $k$ different light switches (to ""flip"" a switch means to turn it on if it is currently off, and off if it is currently on). At the end of each minute, if all of the switches are on, then the door unlocks and Elizabeth escapes from the room.
+
+Let $E(n, k)$ be the minimum number of minutes required for Elizabeth to escape, for positive integers $n, k$ with $k \leq n$. For example, $E(2,1)=2$ because Elizabeth cannot escape in one minute (there are two switches and one must be flipped every minute) but she can escape in two minutes (by flipping Switch 1 in the first minute and Switch 2 in the second minute). Define $E(n, k)=\infty$ if the puzzle is impossible to solve (that is, if it is impossible to have all switches on at the end of any minute).
+
+For convenience, assume the $n$ light switches are numbered 1 through $n$.
+Compute the $E(6,1)$","6","Competition","OlympiadBench"
+"olym_math","olym_0634","Number theory","The product of the first five terms of a geometric progression is 32 . If the fourth term is 17 , compute the second term.","\frac{4}{17}","Competition","OlympiadBench"
+"olym_math","olym_0296","Combinatorics","Amir and Brigitte play a card game. Amir starts with a hand of 6 cards: 2 red, 2 yellow and 2 green. Brigitte starts with a hand of 4 cards: 2 purple and 2 white. Amir plays first. Amir and Brigitte alternate turns. On each turn, the current player chooses one of their own cards at random and places it on the table. The cards remain on the table for the rest of the game. A player wins and the game ends when they have placed two cards of the same colour on the table. Determine the probability that Amir wins the game.","\frac{7}{15}","Competition","OlympiadBench"
+"olym_math","olym_0407","Geometry","Let $T=8$. The parabola $y=x^{2}+T x$ is tangent to the parabola $y=-(x-2 T)^{2}+b$. Compute $b$.","184","Competition","OlympiadBench"
+"olym_math","olym_0368","Number theory","Compute the largest base-10 integer $\underline{A} \underline{B} \underline{C} \underline{D}$, with $A>0$, such that $\underline{A} \underline{B} \underline{C} \underline{D}=B !+C !+D !$.","5762","Competition","OlympiadBench"
+"olym_math","olym_0298","Algebra","The $n$th term of an arithmetic sequence is given by $t_{n}=555-7 n$.
+
+If $S_{n}=t_{1}+t_{2}+\ldots+t_{n}$, determine the smallest value of $n$ for which $S_{n}<0$.","158","Competition","OlympiadBench"
+"olym_math","olym_0351","Geometry","Let $T=1$. Circles $L$ and $O$ are internally tangent and have radii $T$ and $4 T$, respectively. Point $E$ lies on circle $L$ such that $\overline{O E}$ is tangent to circle $L$. Compute $O E$.","2 \sqrt{2}","Competition","OlympiadBench"
+"olym_math","olym_0191","Algebra","The geometric sequence with $n$ terms $t_{1}, t_{2}, \ldots, t_{n-1}, t_{n}$ has $t_{1} t_{n}=3$. Also, the product of all $n$ terms equals 59049 (that is, $t_{1} t_{2} \cdots t_{n-1} t_{n}=59049$ ). Determine the value of $n$.
+
+(A geometric sequence is a sequence in which each term after the first is obtained from the previous term by multiplying it by a constant. For example, $3,6,12$ is a geometric sequence with three terms.)","20","Competition","OlympiadBench"
+"olym_math","olym_0311","Number theory","For how many integers $k$ with $0<k<18$ is $\frac{5 \sin \left(10 k^{\circ}\right)-2}{\sin ^{2}\left(10 k^{\circ}\right)} \geq 2$ ?","13","Competition","OlympiadBench"
+"olym_math","olym_0177","Algebra","A geometric sequence has first term 10 and common ratio $\frac{1}{2}$.
+
+An arithmetic sequence has first term 10 and common difference $d$.
+
+The ratio of the 6th term in the geometric sequence to the 4th term in the geometric sequence equals the ratio of the 6th term in the arithmetic sequence to the 4 th term in the arithmetic sequence.
+
+Determine all possible values of $d$.
+
+(An arithmetic sequence is a sequence in which each term after the first is obtained from the previous term by adding a constant, called the common difference. For example, 3, 5, 7, 9 are the first four terms of an arithmetic sequence.
+
+A geometric sequence is a sequence in which each term after the first is obtained from the previous term by multiplying it by a non-zero constant, called the common ratio. For example, $3,6,12$ is a geometric sequence with three terms.)","-\frac{30}{17}","Competition","OlympiadBench"
+"olym_math","olym_0367","Geometry","Regular hexagon $A B C D E F$ and regular hexagon $G H I J K L$ both have side length 24 . The hexagons overlap, so that $G$ is on $\overline{A B}, B$ is on $\overline{G H}, K$ is on $\overline{D E}$, and $D$ is on $\overline{J K}$. If $[G B C D K L]=\frac{1}{2}[A B C D E F]$, compute $L F$.","18","Competition","OlympiadBench"
+"olym_math","olym_0569","Geometry","Let $T=3$. In $\triangle A B C, A C=T^{2}, \mathrm{~m} \angle A B C=45^{\circ}$, and $\sin \angle A C B=\frac{8}{9}$. Compute $A B$.","8 \sqrt{2}","Competition","OlympiadBench"
+"olym_math","olym_0098","Combinatorics","In the plane, 2013 red points and 2014 blue points are marked so that no three of the marked points are collinear. One needs to draw $k$ lines not passing through the marked points and dividing the plane into several regions. The goal is to do it in such a way that no region contains points of both colors.
+
+Find the minimal value of $k$ such that the goal is attainable for every possible configuration of 4027 points.","2013","Competition","OlympiadBench"
