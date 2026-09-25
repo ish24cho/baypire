@@ -35,15 +35,15 @@ The main experiment uses **two-way balanced sampling**: select a prompt with the
 BayPIRE uses an additive Rasch model:
 
 $$
-Y_{ij}\mid\theta\sim\operatorname{Bernoulli}(p_{ij}),\qquad
-p_{ij}=\operatorname{logit}^{-1}(\alpha+a_i-b_j).
+Y_{ij}\mid\theta\sim\mathrm{Bernoulli}(p_{ij}),\qquad
+p_{ij}=\frac{1}{1+\exp\{-(\alpha+a_i-b_j)\}}.
 $$
 
 Here $\alpha$ is the global intercept, $a_i$ is a prompt effect, and $b_j$ is item difficulty. The likelihood uses only observed outcomes. Hierarchical priors regularise effects when observations are sparse:
 
 $$
 \alpha\sim N(0,5^2),\qquad
-\sigma_a,\sigma_b\sim\operatorname{HalfNormal}(1).
+\sigma_a,\sigma_b\sim\mathrm{HalfNormal}(1).
 $$
 
 Independent standard-normal raw effects are centred and scaled:
