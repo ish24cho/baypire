@@ -1,0 +1,6 @@
+model,subject,mean_prompt_score,sd_prompt_score,min_prompt_score,max_prompt_score,prompt_range
+google_gemma_7b,abstract_algebra,0.28550000000000003,0.03049672941563577,0.23,0.37,0.13999999999999999
+meta_llama_llama_3_8b,abstract_algebra,0.2948,0.031058107807882627,0.23,0.38,0.15
+meta_llama_llama_3_8b_instruct,abstract_algebra,0.3178,0.02447757167595502,0.26,0.38,0.12
+mistralai_mistral_7b_instruct_v0_2,abstract_algebra,0.2718,0.02046825578669308,0.22,0.33,0.11000000000000001
+mistralai_mistral_7b_v0_1,abstract_algebra,0.2705,0.024510356500009864,0.22,0.34,0.12000000000000002
